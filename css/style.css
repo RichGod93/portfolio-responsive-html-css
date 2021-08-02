@@ -150,6 +150,7 @@ header nav ul li a {
 	font-weight: 700;
 	color: #c9b9a9;
 	line-height: 30px;
+	text-transform: uppercase;
 }
 
 .banner-text h1 {
@@ -200,6 +201,9 @@ header nav ul li a {
 }
 
 .left-top-grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #1a1a1a;
 	border-radius: 20px;
 	grid-row: 2;
@@ -211,10 +215,13 @@ header nav ul li a {
 	text-align: center;
 	line-height: 12px;
 	color: #c9b9a9;
-	padding-top: 5px;
+	padding: 5px 10px 10px;
 }
 
 .right-top-grid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #1a1a1a;
 	border-radius: 20px;
 	grid-row: 2;
@@ -226,7 +233,7 @@ header nav ul li a {
 	text-align: center;
 	line-height: 12px;
 	color: #c9b9a9;
-	padding-top: 5px;
+	padding: 5px 10px 10px;
 }
 
 .center-left-img {
@@ -318,13 +325,6 @@ header nav ul li a {
 	.right-top-grid .fa {
 		padding: 5px 0px 10px 0px;
 	}
-
-	.center-left-img h2,
-	.center-right-img h2 {
-		margin-top: 70px;
-	}
-
-
 }
 
 
