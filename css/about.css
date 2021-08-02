@@ -53,7 +53,7 @@ div>.about-me {
 
 
 .about-text {
-    text-align: justify;
+    text-align: center;
     margin: 0px 20px 0px 20px;
 }
 
@@ -91,6 +91,11 @@ div>.about-me {
         align-items: center;
         justify-content: center;
         border-radius: 0 2rem 2rem 0;
+    }
+
+    .about-text {
+        text-align: justify;
+        margin: 0px 20px 0px 20px;
     }
 
 }

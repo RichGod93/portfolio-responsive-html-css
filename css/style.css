@@ -55,7 +55,7 @@ header .header-brand {
 }
 
 header .banner-name {
-	font-family: arial;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight: 900;
 	color: #c9b9a9;
@@ -76,7 +76,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-	font-family: 'Times New Roman';
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #c9b9a9;
 	line-height: 20px;
@@ -108,7 +108,8 @@ header nav ul li a {
 
 	header nav ul {
 		float: left;
-		margin: 20px 0 0 20px;
+		margin: 13px 0px 0px 20px;
+		padding-bottom: 0px;
 	}
 
 	header nav ul li {
@@ -136,7 +137,7 @@ header nav ul li a {
 }
 
 .banner-text p {
-	font-family: 'Times New Roman';
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	color: #c9b9a9;
@@ -145,7 +146,7 @@ header nav ul li a {
 
 
 .banner-text h2 {
-	font-family: arial;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: 700;
 	color: #c9b9a9;
@@ -154,7 +155,7 @@ header nav ul li a {
 }
 
 .banner-text h1 {
-	font-family: 'Times New Roman';
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	color: #c9b9a9;
@@ -248,7 +249,7 @@ header nav ul li a {
 }
 
 .center-left-img h2 {
-	font-family: arial;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: 900;
 	text-align: center;
@@ -268,7 +269,7 @@ header nav ul li a {
 }
 
 .center-right-img h2 {
-	font-family: arial;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: 900;
 	text-align: center;
@@ -285,11 +286,13 @@ header nav ul li a {
 	.left-top-grid {
 		grid-row: 2 / span 2;
 		border-radius: 2rem;
+		overflow: hidden;
 	}
 
 	.right-top-grid {
 		grid-row: 2 / span 2;
 		border-radius: 2rem;
+		overflow: hidden;
 	}
 
 	.center-left-img {
@@ -339,7 +342,7 @@ footer {
 .contact-me p {
 	display: block;
 	font-size: 20px;
-	font-family: arial;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 900;
 	text-align: center;
 	text-shadow: 2px 2px 8px #111;
@@ -360,7 +363,7 @@ footer {
 }
 
 .contact-info {
-	font-family: arial;
+	font-family: Arial, Helvetica, sans-serif;
 	color: #c9b9a9;
 	text-shadow: 2px 2px 8px #111;
 	line-height: 8px;
