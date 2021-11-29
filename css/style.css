@@ -29,6 +29,7 @@ main {
 
 .home-body {
 	background-color: #1a1a1a;
+	-moz-background-blend-mode: multiply;
 	background-blend-mode: multiply;
 	background-repeat: no-repeat;
 	background-position: center;
